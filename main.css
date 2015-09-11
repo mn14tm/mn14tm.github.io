@@ -3,6 +3,8 @@
 /* Padding below the footer and lighter body text */
 
 body {
+    color: #5a5a5a;
+    margin-top: 50px;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -12,27 +14,36 @@ body {
 /* CUSTOMIZE THE JUMBOTRON
 -------------------------------------------------- */
 
-.jumbotron {
-    height: 440px;
-    background-image: url('images/cover_image.jpg');
-    background-repeat: no-repeat;
-    background-size: auto auto;
-    background-position: center;
-    margin-bottom:0;
-    margin-top:50px !important;
-}
 
-/* ABOUT CONTENT
+/* CONTENT
 -------------------------------------------------- */
-.About {
+section .wrap {
+    background-color: #084B8A;
+    padding: 80px;
+    color: #D8D8D8;
 }
 
+.wrap h1 {
+    color: white;
+}
+
+.wrap a {
+    color: #CEE3F6;
+}
+
+section .content{
+    padding-right: 300px;
+    padding-left: 100px;
+
+}
 
 /* FOOTER AND CONTACT
 ------------------------- */
 footer {
-    background-color: black;
-    padding: 50px;
+    color: #6E6E6E;
+    background-color: #151515;
+    padding: 70px;
+    text-align: center;
 }
 
 
